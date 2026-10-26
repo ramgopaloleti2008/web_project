@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Website</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background: #f0f4f8;
+            text-align: center;
+            animation: fade 1s;
+        }
+        header {
+            background: #123456;
+            color: white;
+            padding: 20px;
+        }
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            color: yellow;
+            transform: scale(1.1);
+        }
+        section {
+            padding: 20px;
+            margin: 15px;
+            background: white;
+            border-radius: 10px;
+        }
+        h2 { color: #123456; }
+        @keyframes fade {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @media(max-width: 600px) {
+            nav a { margin: 5px; }
+            section { margin: 8px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Portfolio</h1>
+    <p>First-Year CSE Student</p>
+    <nav>
+        <a href="#profile">Profile</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="profile">
+    <h2>Profile</h2>
+    <p>Hello! I am a student interested in programming and technology.</p>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <p>B.Tech - Computer Science Engineering</p>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <p>HTML, CSS, Python</p>
+</section>
+
+<section>
+    <h2>Hobbies</h2>
+    <p>Reading, Coding, Music</p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <p>Personal Website, Food Ordering App</p>
+</section>
+
+<section>
+    <h2>Achievements</h2>
+    <p>Add your certificates and achievements here.</p>
+    <a href="resume.pdf" download>Download Resume</a>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: kanna0826@gmail.com</p>
+    <p>Phone: 98765432100</p>
+</section>
+
+<footer>
+    <p>© 2026 My Portfolio</p>
+</footer>
+
+</body>
+</html>
